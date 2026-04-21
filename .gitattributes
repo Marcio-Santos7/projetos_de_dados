@@ -6,6 +6,7 @@
 
 # Notebooks Jupyter (importante!)
 *.ipynb text eol=lf
+*.ipynb diff=ipynb
 
 # Shell scripts
 *.sh text eol=lf
