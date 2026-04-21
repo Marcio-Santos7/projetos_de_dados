@@ -1,0 +1,39 @@
+# Detecta automaticamente arquivos de texto e normaliza para LF no repositório
+* text=auto
+
+# Python
+*.py text eol=lf
+
+# Notebooks Jupyter (importante!)
+*.ipynb text eol=lf
+
+# Shell scripts
+*.sh text eol=lf
+
+# Windows scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Markdown
+*.md text eol=lf
+
+# CSV e dados
+*.csv text eol=lf
+
+# JSON
+*.json text eol=lf
+
+# YAML
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Imagens (binários, não mexer)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+
+# Arquivos compactados
+*.zip binary
+*.tar binary
+*.gz binary
